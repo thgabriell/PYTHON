@@ -1,9 +1,9 @@
-#Tendo como dado de entrada a altura(h) de uma pessoa e seu sexo, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
-#Para homens: (72.7*h) - 58
-#Para mulheres: (62.1*h) - 44.7
+# Tendo como dado de entrada a altura(h) de uma pessoa e seu sexo, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+# Para homens: (72.7*h) - 58
+# Para mulheres: (62.1*h) - 44.7
 
-#.strip() usado para remover espaços em branco no início e no final de uma string.
-#.upper() transformar todas as letras de uma string em maiúsculas.
+# .strip() usado para remover espaços em branco no início e no final de uma string.
+# .upper() transformar todas as letras de uma string em maiúsculas.  <!-- -->
 
 altura = float(input(f"Qual a sua altura: " ))
 sexo = input(f"Qual o seu sexo (M para masculino F para feminino):").strip().upper()
